@@ -123,8 +123,10 @@ section {
 }
 
 .skills-container ul li {
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
   background: white;
-  padding: 2em;
+  padding: 0em 2em;
   border-radius: 1em;
   margin-bottom: 1em;
 }
@@ -159,7 +161,13 @@ section {
   color: white;
   font-weight: medium;
   text-align: center;
-  padding: 1em;
+  padding: 2em;
+}
+
+.comingsoon {
+  font-weight: bold;
+  font-stretch: expanded;
+  color: #F16A70;
 }
 
 @media only screen and (min-width: 700px) {
@@ -225,6 +233,9 @@ section {
   section {
     padding: 8em;
   }
+  section.portfolio {
+    margin-bottom: -8em;
+  }
   .skills {
     padding: 4em;
   }
@@ -238,7 +249,7 @@ section {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 12em;
+    width: 15em;
     float: right;
   }
   .social-header ul img {
