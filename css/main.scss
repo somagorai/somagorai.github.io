@@ -154,7 +154,10 @@ section{
     color: white;
     font-weight: medium;
     text-align: center;
-    padding: 2em;
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
     }
 
 .comingsoon {
@@ -202,6 +205,12 @@ section{
 
 .portfolio-container img {
     margin-left: 2em;
+}
+
+.aboutme {
+    font-weight: normal;
+    color: #3b3b3b;
+
 }
 
 @media only screen and (min-width: 1000px){
