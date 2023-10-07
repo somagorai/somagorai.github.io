@@ -322,3 +322,7 @@ section {
   }
 }
 /*# sourceMappingURL=main.css.map */
+
+#shadow-host-companion {
+  display: none;
+}
