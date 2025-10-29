@@ -58,7 +58,7 @@ Error generating stack: `+n.message+`
             left: 8px;
             width: 479px;
             height: 658px;
-            background: url('https://somagorai.website/cgi/image/cat_base_image_IdE08UBE13PC_K66taAAT.png?width=640&quality=100&format=auto') center/cover no-repeat;
+            background: url('/assets/cat_base_image_IdE08UBE13PC_K66taAAT.png?width=640&quality=100&format=auto') center/cover no-repeat;
             /* Replace YOUR_IMAGE_PATH_HERE with your imgImage5 file location */
             z-index: 2; /* Above the tail */
             opacity: 0;
